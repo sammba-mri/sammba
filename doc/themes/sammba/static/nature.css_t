@@ -4,7 +4,7 @@
  */
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Georgia, serif;
     font-size: 0.9em;
     letter-spacing: -0.01em;
     line-height: 150%;
@@ -74,13 +74,13 @@ div.topic {
 }
 
 a {
-    color: #355F7C;
+    color: #7B357C;/*changed from 355F7C*/
     text-decoration: none;
     word-wrap: break-word;
 }
 
 a:hover {
-    color: #2491CF;
+    color: #A224CF;/*changed from 2491CF*/
     text-decoration: underline;
 }
 
@@ -95,7 +95,7 @@ pre {
     font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
     letter-spacing: 0.015em;
     padding: 10px;
-    background-color: #F9FDFF;
+    background-color: #FFF9FF;/*changed from #F9FDFF*/
     color: #111;
     line-height: 1.2em;
     border: 1px solid #EEE;
@@ -112,7 +112,7 @@ div.highlight-python pre {
 }
 
 div.highlight:hover span.copybutton {
-    background-color: #3F556B;
+    background-color: #6B3F67;/*changed from 3F556B*/
 }
 
 div.highlight:hover span.copybutton:hover {
@@ -121,7 +121,7 @@ div.highlight:hover span.copybutton:hover {
 
 @media (min-width: 1060px) {
     div.highlight:hover span.copybutton:after{
-	background: #3F556B;
+	background: #6B3F67;/*changed from 3F556B*/
 	border-radius: 5px;
 	color: white;
 	content: attr(title);
@@ -199,7 +199,7 @@ div.body h1, div.body h2, div.body h3, div.body h4 {
 
 
 tt {
-    background-color: #ecf0f3;
+    background-color: #f3ecf2;/*changed from  ecf0f3*/
     color: #222;
     font-size: 1.1em;
     font-family: monospace;
@@ -230,9 +230,9 @@ a tt {
     border: 0;
     color: #333;
 }
-
+/*% to change*/
 a tt:hover {
-    color: #2491CF;
+    color: #A224CF;/*changed from 2491CF*/
 }
 
 dl {
@@ -373,17 +373,17 @@ div.related ul li a {
     margin: 0;
     padding: 0 5px 0 5px;
     line-height: 1.75em;
-    color: #355F7C;
+    color: #7B357C;/*changed from 355F7C*/
 }
 
 div.related ul li a:hover {
-    color: #3CA8E7;
+    color: #DD3CE7;/*changed from 3CA8E7*/
 }
 
 div.related-wrapper {
-    background-color: #e8eef0;
+    background-color: #eee8f0; /*changed from e8eef0*/
     /*background-image: linear-gradient(160deg, #e8eef0, #97c6d2);*/
-    background-image: linear-gradient(30deg, #e8eef0, #97c6d2);
+    background-image: linear-gradient(30deg, #eee8f0,#d297cd);/*changed from (30deg, #e8eef0, #97c6d2)*/
 }
 
 div.body {
@@ -467,7 +467,7 @@ div.body h4,
 div.body h5,
 div.body h6 {
     font-family: Arial, sans-serif;
-    background-color: #BFDCEC;
+    background-color: #EECDED;/*changed from #BFDCEC horizontal side bar*/
     font-weight: normal;
     color: #212224;
     border-bottom: 1px solid #CCC;
@@ -550,8 +550,8 @@ div.sphinxsidebar h4, div.sphinxsidebar h3 {
     font-size: 0.9em;
     padding: 0.1em 0 0.1em 0.5em;
     color: white;
-    border: 1px solid #86989B;
-    background-color: #4EACC5;
+    border: 1px solid #96869B; /*changed from 86989B*/
+    background-color: #D06ACC; /*%changed from 4EACC5 sphinx toc!*/
     font-size: 1.2em;
 }
 
@@ -597,7 +597,7 @@ h1 {
     margin: 0;
     padding: 0.7em 0 0.3em 0;
     font-size: 1.5em;
-    color: #11557C;
+    color: #7C1172; /*changed from 11557C*/
 }
 
 h2 {
@@ -643,8 +643,8 @@ table td, table th {
 }
 
 div.footer {
-    background-color: #E3EFF1;
-    color: #86989B;
+    background-color: #F1E3F0; /*changed from E3EFF1*/
+    color: #96869B; /*changed from 86989B*/
     padding: 3px 8px 3px 0;
     clear: both;
     font-size: 0.8em;
@@ -652,7 +652,7 @@ div.footer {
 }
 
 div.footer a {
-    color: #86989B;
+    color: #96869B;/*changed from 86989B*/
     text-decoration: underline;
 }
 
@@ -709,12 +709,12 @@ div.sphinxsidebarwrapper ul ul a {
 
 div.sphinxsidebarwrapper ul ul a:hover {
     text-decoration: none;
-    background-color: #E4F2FC;
+    background-color: #F6E4FC; /*changed from E4F2FC*/
 }
 
 div.sphinxsidebarwrapper ul ul a.active {
     color: white;
-    background-color: #355F7C;
+    background-color: #7B357C; /*changed from 355F7C*/
 }
 
 div.admonition, div.warning, div.topic {
@@ -806,7 +806,7 @@ div.sidebar p.first {
 div.versioninfo {
     margin: 1em 0 0 0;
     border: 1px solid #ccc;
-    background-color: #DDEAF0;
+    background-color: #F0DDEE; /*changed from DDEAF0*/
     padding: 8px;
     line-height: 1.3em;
     font-size: 0.9em;
@@ -1107,10 +1107,10 @@ table.docutils {
 }
 
 table.docutils tr:nth-child(even) {
-    background-color: #F3F3FF;
+    background-color: #FFF4EE;/*changed from F3F3FF*/
 }
 table.docutils tr:nth-child(odd) {
-    background-color: #FFFFEE;
+    background-color: #FFF3FE;/*changed from FFFFEE*/
 }
 
 table.docutils tr {
@@ -1208,7 +1208,7 @@ div#logo-banner .banner h2 {
     text-align: left;
     margin : -0.5em 0 0 6.5em;
     font-size: 1.05em;
-    color: #11557C;
+    color: #7C1172;/*changed from 11557C*/
 }
 
 @media (max-width: 800px) {
@@ -1392,7 +1392,7 @@ div#index-grid p {
 }
 
   .section.group h3 a {
-    color: #355F7C;
+    color: #7B357C;/*changed from 355F7C*/
     font-size: 0.8em;
  }
 
@@ -1593,13 +1593,13 @@ ul#tabs li {
 
 ul#tabs li:hover {
     color: black;
-    background-color: #C4D8E2;
+    background-color: #E2C4E2; /*changed from C4D8E2*/
     border-top: solid 5px black;
 }
 
 ul#tabs li.active {
     color: black;
-    background-color: #E2EEF3;
+    background-color: #E5E2F3;/*changed from E2EEF3*/
     border-top: solid 5px black;
     font-weight: 600;
     padding-bottom: 5px;
@@ -1616,7 +1616,7 @@ ul#tab {
     -webkit-border-radius: 5px;
     border-radius: 5px;
     border: solid 1px #AAAAAA;
-    background-color: #E2EEF3;
+    background-color: #E5E2F3;/*changed from E2EEF3*/
     color: black;
     font-family: Arial;
     font-size: 17px;
@@ -1674,9 +1674,9 @@ ul#tab li div.contents p{
 
     ul#tab {
       padding:5px 5px;
-      -moz-box-shadow: 0px 0px 0px 0px #355F7C;
-      -webkit-box-shadow: 0px 0px 0px 0px #355F7C;
-      box-shadow: 0px 0px 0px 0px #355F7C;
+      -moz-box-shadow: 0px 0px 0px 0px #7B357C;/*changed from 355F7C*/
+      -webkit-box-shadow: 0px 0px 0px 0px #7B357C;/*changed from 355F7C*/
+      box-shadow: 0px 0px 0px 0px #7B357C;/*changed from 355F7C*/
       -moz-border-radius:0px;
       -webkit-border-radius:0px;
       border-radius:0px;
